@@ -85,3 +85,6 @@ class Spectral_Clustering:
         plt.figure(figsize=(10,10))
         cmap = [0 if x == 0 else 1 for x in self.eig_vectors[:,2]]
         nx.draw(self.G, pos = self.data, node_size = 30, node_color = cmap)
+    
+    def new():
+        pass
