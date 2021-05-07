@@ -87,4 +87,5 @@ class Spectral_Clustering:
         nx.draw(self.G, pos = self.data, node_size = 30, node_color = cmap)
     
     def new():
+        
         pass
